@@ -5,10 +5,98 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <title>Mateusz Górzański</title>
+    <link href="https://fonts.googleapis.com/css?family=Raleway:700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Lato:400,500,700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="assets/styles/css/main.css">
+    <script src="https://kit.fontawesome.com/ea088e12d5.js"></script>
   </head>
   <body>
-    <h1>Hello, world!</h1>
+    <header id="header">
+      <nav class="navbar fixed-top navbar-expand-lg navbar-light bg-light">
+        <div class="container">
+          <a class="navbar-brand" href="https://mateuszgorzanski.pl/portfolio/">Mateusz Górzański</a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+
+          <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
+            <ul class="navbar-nav">
+              <li class="nav-item active">
+                <a class="nav-link" href="/">Portfolio <span class="sr-only">(current)</span></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="https://mateuszgorzanski.pl/">Przejdź do strony głównej</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main id="main">
+      <div class="container">
+        <div id="authorBio">
+          <div class="row justify-content-center align-items-center">
+            <div class="col-lg-2">
+              <img class="img-fluid rounded-circle" src="assets/images/profile.jpg" alt="Zdjęcie profilowe">
+            </div>
+            <div class="col-lg-8">
+              <h1 class="author-title">Mateusz Górzański</h1>
+              <p class="lead author-description">My name is Mateusz, I’m a high school student. I’m interested in computers since childhood, and I'm trying to learn new things everyday. Currently most of the time I'm focused on web development. I love working with React and JavaScript. I’m also proficient in HTML5 and CSS3. I have basic skills in GIT as well as in other technologies. You can check a full list of skils in my resume.</p>
+              <span><a href="https://twitter.com/mgorzanski" class="text-dark"><i class="fab fa-twitter fa-lg"></i></a>&nbsp;&nbsp;<a href="https://github.com/mgorzanski" class="text-dark"><i class="fab fa-github fa-lg"></i></a></span>
+            </div>
+          </div>
+        </div>
+
+        <div id="portfolio">
+          <div class="row">
+            <div class="col-lg-4 portfolio-single-item px-2">
+              <img class="img-fluid" src="assets/images/portfolio/devbees.png" alt="devbees">
+              <span class="d-block mt-1"><span class="font-weight-bold">Opis: </span>Strona zespołu devbees</span>
+              <span class="d-block mb-1"><span class="font-weight-bold">Technologie: </span>HTML, CSS, Jekyll</span>
+              <a class="btn btn-dark btn-block stretched-link" href="#" role="button">Odwiedź</a>
+            </div>
+            <div class="col-lg-4 portfolio-single-item px-2">
+              <img class="img-fluid" src="assets/images/portfolio/dance-house.png" alt="devbees">
+              <span class="d-block mt-1"><span class="font-weight-bold">Opis: </span>Studio taneczne Dance House</span>
+              <span class="d-block mb-1"><span class="font-weight-bold">Technologie: </span>HTML, CSS</span>
+              <a class="btn btn-dark btn-block stretched-link" href="#" role="button">Odwiedź</a>
+            </div>
+            <div class="col-lg-4 portfolio-single-item px-2">
+              <img class="img-fluid" src="assets/images/portfolio/matgor.png" alt="devbees">
+              <span class="d-block mt-1"><span class="font-weight-bold">Opis: </span>Moja poprzednia strona prywatna</span>
+              <span class="d-block mb-1"><span class="font-weight-bold">Technologie: </span>HTML, CSS, GatsbyJS</span>
+              <a class="btn btn-dark btn-block stretched-link" href="#" role="button">Odwiedź</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <footer id="footer" class="border-top">
+      <div class="container my-3">
+        <div class="row">
+          <div class="col-lg-4 footer-single-item">
+            <h4 class="footer-title">Kontakt</h4>
+            <div class="footer-content">
+              <span class="d-block"><span class="font-weight-bold">Email: </span>gorzanski.mateusz@gmail.com</span>
+              <span class="d-block"><span class="font-weight-bold">Telefon: </span>+48 537 743 753</span>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="border-top"></div>
+      <div class="container my-3">
+        <div class="row">
+          <div class="col-6">
+            <span>Copyright &copy; 2019 <a href="https://mateuszgorzanski.pl/" class="text-dark">Mateusz Górzański</a></span>
+          </div>
+          <div class="col-6 d-flex justify-content-end">
+            <span><a href="https://twitter.com/mgorzanski" class="text-dark"><i class="fab fa-twitter fa-lg"></i></a>&nbsp;&nbsp;<a href="https://github.com/mgorzanski" class="text-dark"><i class="fab fa-github fa-lg"></i></a></span>
+          </div>
+        </div>
+      </div>
+    </footer>
 
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>

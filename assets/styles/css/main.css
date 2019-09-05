@@ -1,0 +1,36 @@
+#header {
+  height: 56px;
+}
+
+#authorBio {
+  padding: 100px 0 80px;
+}
+
+.author-title {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 700;
+}
+
+.author-description {
+  font-family: 'Lato', sans-serif;
+}
+
+.portfolio-single-item span, .footer-content span {
+  font-family: 'Lato', sans-serif;
+}
+
+.portfolio-single-item:hover img {
+  opacity: 0.76;
+}
+
+.footer-title {
+  font-family: 'Lato', sans-serif;
+}
+
+#main {
+  padding: 0 0 65px;
+}
+
+.footer-single-item {
+  min-height: 160px;
+}
